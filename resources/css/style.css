@@ -47,27 +47,32 @@ nav span {
 	padding-top: 80px;
 	display: flex;
 	justify-content: space-around;
+	padding-top: 120px;
 }
 
 .first-column {
 	display: flex;
 	flex-wrap: wrap;
 	width: 630px;
-	border: 1px solid black;
 }
 
 .second-column {
 	display: flex;
 	flex-wrap: wrap;
 	width: 	300px;
-	border: 2px solid red;
 }
 
 .third-column {
 	display: flex;
 	flex-wrap: wrap;
 	width: 	240px;
-	border: 2px solid blue;
+}
+
+#title-img {
+	font-size: 40px;
+	font-family: Georgia;
+	font-weight: bold;
+	color: white;
 }
 
 .title-img {
@@ -75,7 +80,7 @@ nav span {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
-	align-self: center;
+	align-items: center;
 }
 
 .bg-title {
@@ -102,4 +107,20 @@ nav span {
 	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
 	background-repeat: no-repeat;
 	display: flex;
+}
+
+.content {
+	height: 550px;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
 }
