@@ -54,6 +54,7 @@ nav span {
 	display: flex;
 	flex-wrap: wrap;
 	width: 630px;
+	align-items: center;
 }
 
 .second-column {
@@ -64,6 +65,7 @@ nav span {
 
 .third-column {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	width: 	240px;
 }
@@ -80,7 +82,7 @@ nav span {
 	font-weight: bold;
 	font-size: 30px;
 	color: white;
-	align-items: center;
+	text-align: center;
 }
 
 .bg-title {
@@ -109,10 +111,6 @@ nav span {
 	display: flex;
 }
 
-.content {
-	height: 550px;
-}
-
 .stories {
 	display: flex;
 	justify-content: space-between;
@@ -123,4 +121,18 @@ nav span {
 	display: flex;
 	flex-direction: column;
 	width: 300px;
+}
+
+.bites h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.list ul {
+	background-color: whitesmoke;
+	font-family: Verdana;
+	font-size: 12px;
+	color: DimGray;
+	border-bottom: 1px solid black;
+	list-style: none;
 }
