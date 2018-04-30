@@ -2,6 +2,7 @@ body {
 	font-family: Georgia;
 	font-size: 17px;
 	color: black;
+	margin: 0 auto;
 }
 
 header {
@@ -140,6 +141,11 @@ nav span {
 	list-style: none;
 }
 
+.list ul {
+	border-bottom: 1px solid black;
+	padding: 11px 20px;
+}
+
 .footer {
 	display: flex;
 	flex-direction: column;
@@ -150,6 +156,7 @@ nav span {
 	font-family: Verdana;
 	font-size: 12px;
 	height: 325px;
+	margin-top: 30px;
 }
 
 footer .title {
@@ -160,6 +167,7 @@ footer .title {
 	color: white;
 	font-size: 16px;
 	font-weight: bold;
+
 }
 
 footer nav {
